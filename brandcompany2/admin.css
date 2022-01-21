@@ -1,0 +1,37 @@
+img{
+    
+}
+.opciones{
+    width: 150px;
+    height: auto;
+    
+    background: gray;
+   
+    
+}
+
+.btn--admin{
+
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 90%%;
+    background: rgba(0,0,0,.5);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.btn--admin:hover{
+    background: rgba(0,0,0,7);
+        
+}
+.contenido{
+    
+    width: 80%;
+    background: blue;
+}
+@media screen and (min-width:480px) {
+    
+    
+}

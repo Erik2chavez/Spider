@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/login.css">
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+
+  </head>
+  <body>
+<nav class="main-nav">
+        <div class="fixed">
+         <div class="container container--flex">
+             <span class="icon-menu" id="btnmenu" > </span>
+            
+             <ul class="menu" id="menu">
+                <li><a href="index.html" class="menu__link ">Brandcompany</a></li>
+                
+                 <li><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                 <li><a href="login.html" class="menu__link loginp ">Iniciar sesión</a></li>
+                  <li><a href="registro.html" class="menu__link loginr menu__link--select">Registrarse</a></li>
+                  <li><a href="video.php" class="menu__link online">Online</a></li>
+                 <li><a href="index.html#contacto" class="menu__link">Contacto</a></li>
+
+             </ul>
+         </div>
+     </div> 
+         </nav>
+    <div class="registro">
+
+     
+      <h1>Unete</h1>
+      <form action="crear_cuenta.php" method="POST">
+        <!-- Usuario -->
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Name" required="">
+        <label for="ape1">Apellido</label>
+        <input type="text" name="ape1" placeholder="last Name" required="">
+        <label for="ape2">Segundo apellido</label>
+        <input type="text" name="ape2" placeholder="last Name">
+        <label for="mail">Correo</label>
+        <input type="text" name="correo" placeholder="Enter mail" required="">
+        <!-- PASSWORD -->
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter Password" required="">
+        <input type="submit" value="Iniciar">
+        
+       
+         
+      </form>
+    </div>
+      <script type="text/javascript" src="js/menu.js"></script>
+  </body>
+</html>

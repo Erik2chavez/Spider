@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-config-file>
+<lmms version="1.1.3">
+  <app nomsgaftersetup="0" displaydbv="0" nommpz="0" configured="1"/>
+  <audioportaudio backend="MME" device="Asignador de sonido Microsoft - Input"/>
+  <audiosdl device=""/>
+  <mixer framesperaudiobuffer="512" hqaudio="0" audiodev="SDL (Simple DirectMedia Layer)" mididev="WinMM MIDI"/>
+  <paths workingdir="C:/Users/wm\lmms\" fldir="C:/Users/wm\" stkdir="C:/Program Files/LMMS\data\stk/rawwaves/\" vstdir="C:\Program Files\VstPlugins" artwork="C:/Program Files/LMMS\data\themes/default/\" defaultsf2="" backgroundartwork="" laddir="C:/Program Files/LMMS\plugins\ladspa\"/>
+  <tooltips disabled="0"/>
+  <ui smoothscroll="0" compacttrackbuttons="0" enableautosave="0" animateafp="0" displaywaveform="0" oneinstrumenttrackwindow="0" syncvstplugins="1" printnotelabels="1"/>
+  <recentfiles>
+    <file path="C:/Program Files/LMMS/data/projects/Demos\CapDan-ReggaetonTry.mmpz"/>
+    <file path="C:/Program Files/LMMS/data/projects/Demos\CapDan-ReggaeTry.mmpz"/>
+  </recentfiles>
+</lmms>

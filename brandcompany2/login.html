@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/login.css">
+          <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+  </head>
+  <body>
+ <nav class="main-nav">
+        <div class="fixed">
+         <div class="container container--flex">
+             <span class="icon-menu" id="btnmenu" > </span>
+            
+             <ul class="menu" id="menu">
+                <li><a href="index.html" class="menu__link ">Brandcompany</a></li>
+                
+                 <li><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                 <li><a href="login.html" class="menu__link loginp menu__link--select">Iniciar sesión</a></li>
+                  <li><a href="registro.html" class="menu__link loginr">Registrarse</a></li>
+                  <li><a href="video.php" class="menu__link online">Online</a></li>
+                 <li><a href="index.html#contacto" class="menu__link">Contacto</a></li>
+
+             </ul>
+         </div>
+     </div> 
+         </nav>
+    <div class="login">
+
+     <a href="index.html"> <img src="img/robot.png" class="avatar" alt="Avatar Image"></a>
+      <h1>Bienvenido</h1>
+      <form action="login.php" method="POST">
+        <!-- Usuario -->
+        <label for="username">Inicia sesión</label>
+        <input type="text" name="correo" placeholder="Enter Username">
+        <!-- PASSWORD -->
+        <label for="password">Password</label>
+        <input type="password" name="ps" placeholder="Enter Password">
+        <input type="submit" value="Iniciar">
+        <a href="#">No recuerdo mi password</a><br>
+        <a href="registro.html">Crear una cuenta</a><br>
+        <a href="loginadmin.html">iniciar como administrador</a>
+         
+      </form>
+    </div>
+      <script type="text/javascript" src="js/menu.js"></script>
+  </body>
+</html>
